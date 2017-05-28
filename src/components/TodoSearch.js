@@ -18,11 +18,11 @@ class TodoSearch extends Component {
         return (
             <div className="container__header">
                 <div>
-                    <input type="search" ref="searchText" placeholder="Search todos" value={searchText} onChange={this.handleSearch}/>
+                    <input type="search" ref="searchText" placeholder="Search todos" value={searchText} onChange={this.handleSearch} />
                 </div>
                 <div>
                     <label>
-                        <input type="checkbox" ref="showCompleted" checked={showCompleted} onChange={this.handleShowCompleted}/>
+                        <input type="checkbox" ref="showCompleted" checked={showCompleted} onChange={this.handleShowCompleted} />
                         Show completed todos
                     </label>
                 </div>

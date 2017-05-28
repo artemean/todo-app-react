@@ -5,7 +5,7 @@ import actions from '../actions/actions';
 class AddTodo extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
-        const {dispatch} = this.props;
+        const dispatch = this.props.dispatch;
         const todoText = this.refs.todoText.value;
 
         if (todoText.length > 0) {

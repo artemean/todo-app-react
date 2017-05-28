@@ -10,11 +10,11 @@ class TodoList extends Component {
                 <p className="container__message">Nothing To Do</p>
             );
         }
-    return TodoAPI.filterTodos(this.props.todos, this.props.showCompleted, this.props.searchText).map((todo) => {
-        return (
-            <Todo key={todo.id} {...todo}/>
-        );
-    });
+        return TodoAPI.filterTodos(this.props.todos, this.props.showCompleted, this.props.searchText).map((todo) => {
+            return (
+                <Todo key={todo.id} {...todo}/>
+            );
+        });
     };
 
     render() {
