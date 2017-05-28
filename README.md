@@ -1,0 +1,1 @@
+This is another Todo app I made with React / Redux after going thru a corresponding course at Udemy.
